@@ -1,13 +1,16 @@
 body{
     font-family: sans-serif;
     padding: 20px;
-    background-color: rgba(233, 232, 227, 0.897);
+    background-color: rgba(253, 253, 252, 0.897);
+    width: ;
 
 }
 .header{
     display: flex;
     height: ;
     margin-bottom: 80px;
+    justify-content:space-between;
+
 }
 .logo{
     width: 180;
@@ -18,7 +21,7 @@ body{
     flex: 1;
     justify-content: center;
     align-items: center;
-    margin-left:30px ;
+    margin-left: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-weight: 600;
@@ -44,7 +47,7 @@ body{
 }
 .body{
     display: inline-block;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 
 }
 h1{
@@ -215,3 +218,21 @@ span{
     display: inline-flex;
     margin-right: 50px;
 }
+
+@media (max-width:500px){
+.header-mid{
+    display: none;
+}
+
+.body-left{
+    display: block;
+}
+
+.body-right{
+    display: block;
+    margin-left: 0;
+    margin-top: 20px;
+}
+
+}
+
