@@ -1,8 +1,8 @@
 body{
     font-family: sans-serif;
-    padding: 20px;
+    padding: 28px 5px;
     background-color: rgba(253, 253, 252, 0.897);
-    min-width: 1500px;
+    
 
 }
 .header{
@@ -46,8 +46,9 @@ body{
     opacity: 0.7;
 }
 .body{
-    display: inline-block;
-    flex-wrap: nowrap;
+    display: ;
+    
+    
 
 }
 h1{
@@ -57,8 +58,8 @@ h1{
 }
 .body-left{
     display: inline-block;
-    min-width: auto;
-    padding-top: ;
+    min-width:
+    padding-top
 
 
 }
@@ -141,17 +142,17 @@ span{
 
 .body-right{
     display: inline-block;
-    margin-left: 80px;
+    margin-left: 30px;
     margin-top: 0px;
-    min-width: min-content;
+    width: fit-content;
     position: relative;
     
 }
 .student-study{
     border-radius: 10px;
     width: 100%;
-    min-width:
-    height: 100%;
+    position: relative;
+    height: 100%
     margin-top: ;
 }
 .time-tag{
