@@ -10,6 +10,7 @@ body{
     height: ;
     margin-bottom: 80px;
     justify-content: space-between;
+    
 
 }
 .logo{
@@ -46,25 +47,41 @@ body{
     opacity: 0.7;
 }
 .body{
-    display: ;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    
     
     
 
 }
 h1{
-    font-size: 38px;
-    margin-bottom: 0;
+    font-size: 40px;
+    margin-top: ;
+    margin-bottom: px;
     
 }
 .body-left{
     display: inline-block;
-    min-width:
-    padding-top
+    padding-bottom:0;
+    margin-top: 0px;
+    margin-left:;
+
+    
 
 
 }
 .body-left p{
     line-height: 25px;
+    margin-bottom: 5px;
+
+
+}
+.join-paragraph{
+    margin-top: ;
+    margin-bottom: 40px;
 }
 span{
     color: rgb(15, 50, 248);
@@ -113,6 +130,7 @@ span{
 
 .profile-pic-container{
     display: inline-block;
+    padding-bottom: 0px;
 }
 .profile-pic{
     height: 58px;
@@ -135,14 +153,15 @@ span{
     
 }
 .institution{
-    margin-top: 4px;
+    margin-top: 0px;
     margin-bottom: 8px;
     color: rgba(71, 70, 70, 0.993);
 }
 
 .body-right{
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 100px;
+    margin-right: ;
     margin-top: 0px;
     width: fit-content;
     position: relative;
@@ -150,17 +169,17 @@ span{
 }
 .student-study{
     border-radius: 10px;
-    width: 100%;
+    width: 84%;
     position: relative;
-    height: 100%
-    margin-top: ;
+    height: 80%
+    margin-top: 100px;
 }
 .time-tag{
     background-color: white;
-    width: 150px;
+    width: 200px;
     height: 68px;
     position: absolute;
-    right: -40px;
+    right: 0px;
     bottom: -25px;
     border-radius: 10px;
     box-shadow: 6px 6px 5px rgb(192, 191, 191) ;
@@ -171,26 +190,26 @@ span{
 }
 .clock{
     display: inline-block;
-    width: 50px;
-    height: 40px;
-    width: 40px;
-    padding: 10px;
+    height: 42px;
+    width: 42px;
+    padding: 20px;
     
     
 }
 .clock img{
+    margin-bottom: ;
     
 }
 .time-details{
     display: inline-block;
     width: fit-content;
-    margin: ;
+    margin-top: -10px;
     font-family: times;
     
 }
 .time-details-top p{
-    margin-top: 4px;
-    margin-bottom: 10px;
+    margin-top: 1px;
+    margin-bottom: 4px;
     color: rgba(128, 128, 128, 0.822);
     font-weight: 500;
 }
