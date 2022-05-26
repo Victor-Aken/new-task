@@ -2,7 +2,7 @@ body{
     font-family: sans-serif;
     padding: 20px;
     background-color: rgba(253, 253, 252, 0.897);
-    width: ;
+    min-width: 1500px;
 
 }
 .header{
